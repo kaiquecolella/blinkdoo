@@ -1,0 +1,1610 @@
+/* ******************************************************************************************** */
+/* Padroes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+*, footer {
+    font-family: 'Cabin', sans-serif;
+    caret-color: transparent;
+}
+
+a {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, .titulo-secundario {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 1.3vw;
+    max-width: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+
+h1 {
+    color: #19376D;
+}
+
+main {
+    color: rgba(0, 0, 0, 0.781);
+    letter-spacing: 0.02vw;
+}
+
+/* carrossel */
+.carrossel-cards-sexta-sessao {
+    overflow-x: auto;
+    overflow: hidden;
+}
+
+.galeria-carrossel {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+}
+
+.img-carrossel {
+    flex-shrink: 0;
+}
+
+
+
+
+
+/* ******************************************************************************************** */
+/* MENU - Padroes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.cabecalho, .navegacao-mobile, .menu {
+    background-color: #2093bf;
+
+}
+
+.cabecalho a, .menu a {
+    color: white;
+}
+
+/* ******************************************************************************************** */
+/* BOTOES - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.button {
+    padding: 0.25em 1em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: #2093bf;
+    color: white;
+    border-radius: 5rem;
+}
+
+.button a {
+    color: white;
+}
+
+.button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.botao-quarta-sessao .button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 1);
+}
+
+.botao-quarta-sessao .button:hover a {
+    color: white;
+}
+
+.button:active {
+    transform: translate(0em, 0.2em);
+}
+
+.botao-quarta-sessao .button {
+    background-color: white;
+}
+
+.botao-quarta-sessao .button a {
+    color: black;
+}
+
+/* ******************************************************************************************** */
+/* PRIMEIRA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.primeira-sessao {
+    background-color: white;
+}
+
+/* ******************************************************************************************** */
+/* SEGUNDA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.segunda-sessao {
+    background-color: #ebebeb;
+}
+
+.cards-segunda-sessao .card {
+    background: #ffffff;
+}
+
+/* ******************************************************************************************** */
+/* QUARTA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.quarta-sessao {
+    background-color: #2093bf;
+}
+
+.card-quarta-sessao, .card-adicional-quinta-sessao {
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.quarta-sessao h2 {
+    color: #ebebeb;
+}
+
+/* ******************************************************************************************** */
+/* QUINTA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.quinta-sessao {
+    background-color: #ebebeb;
+}
+
+.card-quinta-sessao {
+    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    background-color: #ffffff;
+    background: linear-gradient(0deg, #2093bf -800%, #ffffff 100%);
+}
+
+.botao-card-quinta-sessao {
+    text-shadow: 0px 4px 18px #2c3442;
+    cursor: pointer;
+}
+
+.precificacao-card-quinta-sessao {
+    background-color: #2092bf62;
+}
+
+.fonte-pix, .cor-pix {
+    color: #008b00;
+}
+
+.adicionais-card-quinta-sessao {
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.card-adicional-quinta-sessao {
+    background-color: rgb(255, 255, 255);
+}
+
+/* ******************************************************************************************** */
+/* SEXTA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.sexta-sessao {
+    background-color: #2092bf48;
+}
+
+.seta-direita, .seta-esquerda {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.card-clientes-sexta-sessao {
+    background: rgb(255, 255, 255);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+details {
+    border-bottom: 2px solid #2092bf5e;
+}
+
+details:hover {
+    background-color: #2092bf5e;
+}
+
+details[open] {
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+/* ******************************************************************************************** */
+/* OITAVA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.oitava-sessao {
+    background-color: #2093bf;
+}
+
+.conteudo-oitava-sessao .titulo-secundario {
+    color: white;
+}
+
+/* ******************************************************************************************** */
+/* FORMULARIO / NONA SESSAO padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+    padding: 1vw;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff;
+}
+
+.message {
+    font-size: 14px;
+    color: rgba(88, 87, 87, 0.822);
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.form label {
+    position: relative;
+}
+
+.form label .input {
+    padding: 5%;
+    width: 90%;
+    outline: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.397);
+}
+
+.form label .nome {
+    height: 1.5vw;
+}
+
+.form label .input+span {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+    color: grey;
+}
+
+.form label .input:placeholder-shown+span {
+    top: 1.2vw;
+    font-size: 0.9em;
+}
+
+.form label .input:focus+span, .form label .input:valid+span {
+    font-size: 0.7em;
+    font-weight: 600;
+    top: 1%;
+
+}
+
+.input01 {
+    padding: 5%;
+    width: 90%;
+    outline: 0;
+    border: transparent;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.397);
+}
+
+.form label .input01+span {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+    color: grey;
+}
+
+.form label .input01:placeholder-shown+span {
+    top: 4px;
+    font-size: 0.9em;
+}
+
+.form label .input01:focus+span, .form label .input01:valid+span {
+    top: 1%;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.form label .input01:valid+span {
+    display: none;
+    color: #008b00;
+
+}
+
+textarea {
+    resize: none;
+}
+
+.botao-form {
+    margin: 0px 10%;
+    width: 80%;
+}
+
+
+
+.whatsapp-nona-sessao {
+    background-color: #fff;
+}
+
+
+.nona-sessao .titulo-secundario {
+    color: black;
+}
+
+.nona-sessao {
+    background-color: white;
+}
+
+.fale-conosco {
+    color: black;
+}
+
+.background-azul {
+    background-color: #2093bf;
+}
+
+/* ******************************************************************************************** */
+/* FOOTER - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.footer-site {
+    background-color: #2c3442;
+    color: white;
+}
+
+.footer-site a {
+    color: white;
+}
+
+/* ******************************************************************************************** */
+/* terceira sessao no futuro colocar um video do site */
+/* ******************************************************************************************** */
+
+.terceira-sessao {
+    display: none;
+}
+
+/* ******************************************************************************************** */
+/****************************************** FIM DOS PADROES ************************************************/
+/* ******************************************************************************************** */
+
+
+
+
+
+/* ---------------------------------------------------------------------------- */
+
+/* ******************************************************************************************** */
+/* Titulos do site */
+/* ******************************************************************************************** */
+
+@media(min-width: 768px) {
+
+    /* MENU MOBILE OCULTO */
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .navegacao-mobile {
+        display: none;
+    }
+
+    /* FIM MENU MOBILE OCULTO */
+
+    h1 {
+        font-size: 5vw;
+        font-weight: 100;
+    }
+
+    .logo-header img {
+        width: 13vw;
+        display: block;
+    }
+
+    .titulo-sexta-sessao .titulo-secundario {
+        font-size: 1.8vw;
+        font-weight: 100;
+    }
+
+    .titulo-secundario {
+        font-weight: 700;
+        font-size: 3.5vw;
+    }
+
+    .sexta-sessao h2 {
+        font-size: 3vw;
+    }
+
+    .fonte-sexta-sessao {
+        margin-top: 5%;
+        font-size: 3vw;
+        font-weight: 800;
+    }
+
+    /* ******************************************************************************************** */
+    /* Botoes do site */
+    /* ******************************************************************************************** */
+
+    .button {
+        font-size: 1.3vw;
+        margin-top: 1.5VW;
+    }
+
+    .button-primeira-sessao {
+        font-size: 1.65vw;
+    }
+
+    .button-cards-segunda-sessao {
+        font-size: 1.1vw;
+    }
+
+    .botao-quarta-sessao .button {
+        font-size: 1.65vw;
+    }
+
+    /* ******************************************************************************************** */
+    /* icones social media */
+    /* ******************************************************************************************** */
+
+    .icon-social-media {
+        width: 1.5vw;
+    }
+
+    /* ******************************************************************************************** */
+    /*  Barra de navegação  */
+    /* ******************************************************************************************** */
+    .menu-mobile {
+        display: none;
+        background-color: yellow;
+    }
+
+    .logo-header {
+        display: block;
+    }
+
+    .logo-header img {
+        display: block;
+
+    }
+
+    .cabecalho ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-header, .navegacao-header, .redes-sociais-header {
+        padding: 1.5vw 5% 1.5vw 5%;
+        display: flex;
+        justify-content: space-between;
+        gap: 0px 3vw;
+        align-items: center;
+    }
+
+    .redes-sociais-header {
+        gap: 1vw;
+    }
+
+    /* ******************************************************************************************** */
+    /* Primeira sessao */
+    /* ******************************************************************************************** */
+
+    .primeira-sessao {
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    .segundo-conteudo-primeira-sessao {
+        font-size: 1.8vw;
+    }
+
+    .conteudo-esquerdo-primeira-sessao, .conteudo-direito-primeira-sessao {
+        width: 50%;
+    }
+
+    .conteudo-esquerdo-primeira-sessao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10%;
+
+    }
+
+    .conteudo-direito-primeira-sessao img {
+        width: 100%;
+    }
+
+    /* ******************************************************************************************** */
+    /* Segunda sessao */
+    /* ******************************************************************************************** */
+
+    .segunda-sessao {
+        clip-path: ellipse(90% 100% at 50% 100%);
+        padding: 5%;
+    }
+
+
+    .segunda-sessao h2 {
+        text-align: center;
+        padding-bottom: 3vw;
+    }
+
+
+    .primeiro-conteudo-segunda-sessao {
+        padding: 50px;
+    }
+
+    .segunda-sessao img {
+        width: 5vw;
+    }
+
+    .cards-segunda-sessao {
+        display: flex;
+        gap: 5vw;
+    }
+
+    .cards-segunda-sessao .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3vw;
+        border-radius: 20% 0 20% 0;
+        font-size: 1.3vw;
+        width: 100%;
+    }
+
+    .cards-segunda-sessao .card img {
+        width: 3.5vw;
+        margin: 1vw 1vw 1vw 0vw;
+    }
+
+    /* ******************************************************************************************** */
+    /* Quarta sessao */
+    /* ******************************************************************************************** */
+
+    .quarta-sessao {
+        padding: 5%;
+    }
+
+    .titulo-quarta-sessao .titulo-secundario {
+        font-size: 3vw;
+    }
+
+    .conteudo-quarta-sessao {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .conteudo-esquerdo-quarta-sessao {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vw;
+    }
+
+    .conteudo-direito-quarta-sessao {
+        display: flex;
+        gap: 2vw;
+        width: 60%;
+    }
+
+    .card-quarta-sessao, .card-adicional-quinta-sessao {
+        border-radius: 10% 10% 10% 10%;
+        height: 10vw;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 2vw;
+    }
+
+    .separacao-card-quarta-sessao {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        width: 33%;
+        justify-content: space-between;
+    }
+
+    .icon-quarta-sessao {
+        width: 3vw;
+    }
+
+    .quarta-sessao h2 {
+        font-size: 3.5vw;
+    }
+
+    /* ******************************************************************************************** */
+    /* Quinta sessao */
+    /* ******************************************************************************************** */
+
+
+    .destaque {
+        font-size: 2vw;
+    }
+
+    .quinta-sessao {
+        padding: 5%;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .cards-quinta-sessao-nossos-pacotes {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .card-quinta-sessao {
+        width: 25%;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 2vw 0px;
+        margin-top: 5vw;
+        padding: 0.6vw;
+        text-align: center;
+    }
+
+    .botao-card-quinta-sessao {
+        width: 70%;
+        margin: 2vw;
+    }
+
+    .precificacao-card-quinta-sessao {
+        border-radius: 2vw 0px;
+        margin-bottom: 1vw;
+        width: 100%;
+    }
+
+    .titulo-card-quinta-sessao {
+        font-weight: 800;
+        font-size: 1.65vw;
+        padding-top: 0.5vw;
+        padding-bottom: 1vw;
+    }
+
+    .centavos-preco-quinta-sessao {
+        font-size: 1.4vw;
+    }
+
+    .quebra-linha-preco-quinta-sessao {
+        display: block;
+    }
+
+    .margin-quebra {
+        margin: 0.5vw;
+    }
+
+    .estilo-card-preco-quinta-sessao {
+        font-weight: 800;
+    }
+
+    .fonte-pix {
+        font-size: 2vw;
+    }
+
+    .fonte-pix, .cor-pix {
+        font-weight: 900;
+    }
+
+    .fonte-parcelamento {
+        font-size: 1.3vw;
+        font-weight: 700;
+        margin-top: 1vw;
+        padding-bottom: 0.5vw;
+    }
+
+    .cor-pix {
+        font-size: 1.2vw;
+    }
+
+    .fonte-preco {
+        font-size: 5vw;
+        font-weight: 800;
+    }
+
+    .desconto-pix-card-quinta-sessao {
+        margin-bottom: 1.5vw;
+    }
+
+    .adicionais-card-quinta-sessao {
+        padding: 0px 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        font-size: 1.2vw;
+        font-weight: 900;
+    }
+
+    .espaco-card-quinta-sessao {
+        margin-bottom: 0.5vw;
+        text-align: center;
+    }
+
+    .texto-bold-quinta-sessao {
+        font-weight: 900;
+        font-size: 1.2vw;
+    }
+
+    .titulo-descricao-adcionais-quinta-sessao {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .cards-quinta-sessao-conteudo-adicional {
+        display: flex;
+        gap: 1vw;
+        justify-content: center;
+    }
+
+    .separacao-card-adicional-quinta-sessao {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .card-adicional-quinta-sessao {
+        border-radius: 1.5vw;
+        height: 5vw;
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
+
+    .terceiro-conteudo-quinta-sessao {
+        font-size: 1.5vw;
+        font-weight: 100;
+        width: 70%;
+        margin: 5% 15% 0px;
+    }
+
+    .terceiro-conteudo-quinta-sessao div {
+        text-align: start;
+
+    }
+
+    /* ******************************************************************************************** */
+    /* SEXTA SESSAO */
+    /* ******************************************************************************************** */
+
+    .sexta-sessao {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .carrossel-cards-sexta-sessao {
+        margin: 5% -5.5% 5% -6%;
+        overflow-x: auto;
+        overflow: hidden;
+    }
+
+    .galeria-carrossel {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 0.2vw;
+        overflow: hidden;
+    }
+
+    .img-carrossel {
+        width: 20vw;
+        flex-shrink: 0;
+
+    }
+
+    .item-atual {
+        opacity: 1;
+    }
+
+    .seta-esquerda {
+        float: left;
+        left: 0;
+        position: absolute;
+        text-align: start;
+        background: transparent;
+    }
+
+    .seta-direita img, .seta-esquerda img {
+        width: 5vw;
+    }
+
+    .seta-direita, .seta-esquerda {
+        margin-top: -25%;
+        position: absolute;
+        border: none;
+        font-size: 5vw;
+        opacity: 1.0;
+        height: 25.3vw;
+        width: 10vw;
+        opacity: 0.5;
+        transition: all 300ms ease-in-out;
+    }
+
+    .seta-direita:hover, .seta-esquerda:hover {
+        opacity: 1;
+    }
+
+    .seta-direita {
+        right: 0;
+        text-align: end;
+        background: transparent
+    }
+
+    .cards-clientes-sexta-sessao {
+        display: flex;
+        justify-content: center;
+        gap: 1vw;
+        padding: 5% 0px;
+    }
+
+    .card-clientes-sexta-sessao {
+        width: 15vw;
+        border-radius: 10px;
+        transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        padding: 1.5vw;
+    }
+
+    .estrela-sexta-sessao {
+        width: 1.5vw;
+    }
+
+    .texto-cliente-sexta-sessao {
+        text-align: start;
+    }
+
+    .nome-cliente-sexta-sessao {
+        font-size: 1.7vw;
+        font-weight: 800;
+        margin-top: -10%;
+    }
+
+    .servico-sexta-sessao {
+        text-align: start;
+        font-size: 1vw;
+    }
+
+    .citacao-cliente-sexta-sessao {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .trabalho-sexta-sessao, .texto-cliente-sexta-sessao, .servico-sexta-sessao {
+        padding: 0.5vw 0px;
+    }
+
+    /* ******************************************************************************************** */
+    /* SETIMA SESSAO */
+    /* ******************************************************************************************** */
+
+    .setima-sessao {
+        padding: 5%;
+        text-align: center;
+    }
+
+    details {
+        width: 50%;
+        margin: 2vw 25% 0.5vw;
+        padding: 1vw;
+        transition: all 0.5s ease-in-out;
+        max-height: 20px;
+    }
+
+    summary {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    details[open] dd {
+        margin-top: 1vw;
+        padding: 1vw 0px;
+    }
+
+    details[open] {
+        padding: 1vw;
+        max-height: 500px;
+    }
+
+    dd {
+        text-align: start;
+        width: 100%;
+    }
+
+    details[open] summary::before {
+        content: "⮝""\00a0";
+    }
+
+    details summary::before {
+        content: "⮟""\00a0";
+        transition: transform 0.2s ease-in-out;
+    }
+
+    /* ******************************************************************************************** */
+    /* Oitava sessao */
+    /* ******************************************************************************************** */
+
+    .oitava-sessao {
+        height: 300px;
+        text-align: center;
+        padding: 5% 5% 0px 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+    }
+
+    /* ******************************************************************************************** */
+    /* NONA SESSAO */
+    /* ******************************************************************************************** */
+
+    .conteudo-nona-sessao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        width: 90%;
+        padding: 0px 20px 20px 20px;
+    }
+
+    /* ******************************************************************************************** */
+    /* FORMULARIO DE CONTATO */
+    /* ******************************************************************************************** */
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 100%;
+        padding: 1vw;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .message {
+        font-size: 14px;
+    }
+
+    .flex {
+        display: flex;
+        width: 100%;
+        gap: 6px;
+    }
+
+    .form label {
+        position: relative;
+    }
+
+    .form label .input {
+        padding: 5%;
+        width: 90%;
+        outline: 0;
+        border-color: transparent;
+        border-radius: 5px;
+    }
+
+    .form label .nome {
+        height: 1.5vw;
+    }
+
+    .form label .input+span {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        font-size: 0.9em;
+        cursor: text;
+        transition: 0.3s ease;
+    }
+
+    .form label .input:placeholder-shown+span {
+        top: 1.2vw;
+        font-size: 0.9em;
+    }
+
+    .form label .input:focus+span, .form label .input:valid+span {
+        font-size: 0.7em;
+        font-weight: 600;
+        top: 1%;
+    }
+
+    .input01 {
+        padding: 5%;
+        width: 90%;
+        outline: 0;
+        border: transparent;
+        border-radius: 5px;
+    }
+
+    .form label .input01+span {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        font-size: 0.9em;
+        cursor: text;
+        transition: 0.3s ease;
+    }
+
+    .form label .input01:placeholder-shown+span {
+        top: 4px;
+        font-size: 0.9em;
+    }
+
+    .form label .input01:focus+span, .form label .input01:valid+span {
+        top: 1%;
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+
+    .form label .input01:valid+span {
+        display: none;
+
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .botao-form {
+        margin: 0px 10%;
+        width: 80%;
+    }
+
+    .whatsapp-nona-sessao {
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    .whatsapp-nona-sessao span {
+        width: 27%;
+        font-size: 2vw;
+    }
+
+
+    .whatsapp-nona-sessao img {
+        width: 5vw;
+    }
+
+    .botao-wpp {
+        cursor: pointer;
+        border: transparent;
+        background-color: transparent;
+    }
+
+    .nona-sessao .titulo-secundario {
+        text-align: center;
+        padding: 5% 5% 2% 5%;
+    }
+
+    .nona-sessao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 5% 0px;
+        clip-path: ellipse(90% 100% at 50% 100%);
+    }
+
+    .fale-conosco {
+        text-align: center;
+        font-size: 2.5vw;
+        padding-top: 2%;
+    }
+
+    /* ******************************************************************************************** */
+    /* footer do site */
+    /* ******************************************************************************************** */
+
+    .primeiro-conteudo-rodape {
+        padding: 5% 5% 5% 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-rodape {
+        width: 22.5%;
+        text-align: center;
+    }
+
+    .termos-de-uso {
+        width: 22.5%;
+        text-decoration: underline;
+        font-weight: 800;
+    }
+
+    .direitos-reservados {
+        width: 22.5%;
+    }
+
+    .redes-sociais-rodape {
+        text-align: center;
+        width: 22.5%;
+    }
+
+    .redes-sociais-rodape img {
+        width: 2vw;
+    }
+
+    .segundo-conteudo-rodape {
+        padding: 0% 5% 5% 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+    }
+
+    .navegacao-header-rodape {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .informacoes-legais-empresa {
+        text-align: center;
+    }
+
+    .logo-rodape img {
+        width: 12vw;
+    }
+
+}
+
+
+@media(max-width: 767px) {
+
+    /* padroes fixos */
+    .primeira-sessao, .segunda-sessao, .quarta-sessao, .quinta-sessao {
+        padding: 5vw;
+    }
+
+    .titulo-secundario {
+        margin-bottom: 5vw;
+    }
+
+    /* fim padroes */
+
+    h1 {
+        font-size: 6vw;
+        font-weight: 600;
+    }
+
+    .titulo-sexta-sessao .titulo-secundario {
+        font-size: 5vw;
+        font-weight: 100;
+    }
+
+    .titulo-secundario {
+        font-weight: 700;
+        font-size: 5vw;
+    }
+
+    /* ******************************************* barra de navegação******************************************* */
+    .cabecalho {
+        display: none;
+    }
+
+
+
+    /* MENU MOBILE */
+    .menu-toggle {
+        cursor: pointer;
+        text-align: end;
+    }
+
+    .menu-items{
+        display: flex;
+        gap: 2vw;
+        justify-content: space-evenly;
+        padding-right: 5vw;
+    }
+
+
+    .logo-header-mobile img {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+
+    }
+
+    .menu.open {
+        display: block;
+    }
+
+    .redes-sociais-header {
+        background-color: #008b00;
+    }
+
+
+
+    /* NAV MOBILE */
+    main {
+        font-size: 3.5vw;
+    }
+
+    .navegacao-mobile {
+        padding: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navegacao-mobile img {
+        width: 30vw;
+    }
+
+    .menu {
+        text-align: center;
+        font-size: 3vw;
+        padding-bottom: 2.5vw;
+    }
+
+    .material-symbols-outlined {
+        color: white;
+    }
+
+    /* ****************************************primeira sessao*********************************** */
+
+    .segundo-conteudo-primeira-sessao {
+        margin: 2.5vw 0px;
+    }
+
+    .terceiro-conteudo-primeira-sessao {
+        text-align: center;
+    }
+
+    .button {
+        font-size: 3vw;
+    }
+
+    /* ****************************************segunda sessao*********************************** */
+    .segunda-sessao {
+        text-align: center;
+    }
+
+    .cards-segunda-sessao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2vw;
+    }
+
+    .card {
+        border-radius: 5%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        padding: 3vw;
+    }
+
+    .card img {
+        width: 12vw;
+    }
+
+    /************************************************* quarta-sessao *****************************************/
+    .quarta-sessao {
+        text-align: center;
+    }
+
+    .botao-quarta-sessao {
+        margin-bottom: 5vw;
+    }
+
+    .card-quarta-sessao {
+        width: 25vw;
+        height: 25vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        border-radius: 10%;
+    }
+
+    .conteudo-direito-quarta-sessao {
+        display: flex;
+        gap: 5vw;
+        justify-content: center;
+    }
+
+    .quarta-sessao img {
+        width: 9vw;
+    }
+
+    .separacao-card-quarta-sessao {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    /* **********************************quinta sessao******************************** */
+    .quinta-sessao {
+        text-align: center;
+    }
+
+    .cards-quinta-sessao-nossos-pacotes {
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        align-items: center;
+    }
+
+    .card-quinta-sessao {
+        width: 50%;
+        padding: 1vw;
+        border-radius: 2vw;
+    }
+
+    .precificacao-card-quinta-sessao {
+        border-radius: 2vw 2vw 0px 0px;
+    }
+
+    .titulo-card-quinta-sessao {
+        font-size: 5vw;
+        padding: 1.2vw;
+    }
+
+    .estilo-preco-card-quinta-sessao {
+        font-weight: 900;
+        font-size: 10vw;
+    }
+
+    .descricao-card-quinta-sessao {
+        padding: 1.2vw;
+    }
+
+    .informacoes-card-quinta-sessao {
+        padding: 1.2vw;
+    }
+
+    .destaque {
+        font-size: 5vw;
+        font-weight: 800;
+    }
+
+    .botao-card-quinta-sessao {
+        margin: 1.2vw;
+    }
+
+    .conteudo-descricao-adicionais-quinta-sessao {
+        margin-top: 5vw;
+    }
+
+    .cards-quinta-sessao-conteudo-adicional {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        font-size: 3.5vw;
+        align-items: center;
+        margin-bottom: 5vw;
+
+    }
+
+    .separacao-card-adicional-quinta-sessao {
+        display: flex;
+        gap: 3vw;
+    }
+
+    .card-adicional-quinta-sessao {
+        width: 20vw;
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 1vw;
+        border-radius: 3vw;
+    }
+
+    .terceiro-conteudo-quinta-sessao {
+
+        display: flex;
+        text-align: start;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+    }
+
+    /* **********************************************sexta sessao****************************************** */
+
+    .titulo-sexta-sessao {
+        text-align: center;
+        padding: 5vw;
+        font-size: 5vw;
+        font-weight: 800;
+    }
+
+    .seta-esquerda, .seta-direita, .seta-direita img, .seta-esquerda img {
+        height: 0px;
+        width: 0px;
+        margin-left: -1000px;
+        display: none;
+    }
+
+    .titulo-sexta-sessao-segundo-conteudo {
+        padding: 5vw 0px 0px 0px;
+        text-align: center;
+    }
+
+    .cards-clientes-sexta-sessao {
+        padding: 0px 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    .card-clientes-sexta-sessao {
+        width: 50%;
+        padding: 5vw;
+        border-radius: 4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2vw;
+        margin-bottom: 5vw;
+
+    }
+
+    .citacao-cliente-sexta-sessao {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .nome-cliente-sexta-sessao {
+        text-align: center;
+        font-size: 5vw;
+        margin-bottom: 1vw;
+        font-weight: 800;
+    }
+
+    .estrela-sexta-sessao {
+        width: 6vw;
+    }
+
+    /* ************************************setima sessao**************************************** */
+    .setima-sessao {
+        padding: 5%;
+        text-align: center;
+    }
+
+    details {
+        width: 70%;
+        margin: 2vw 15% 0.5vw;
+        padding: 1vw;
+        transition: all 0.5s ease-in-out;
+        max-height: 30px;
+    }
+
+    summary {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        width: 100%;
+        cursor: pointer;
+
+    }
+
+    details[open] dd {
+        margin-top: 1vw;
+        padding: 1vw 0px;
+    }
+
+    details[open] {
+        padding: 1vw;
+        max-height: 500px;
+    }
+
+    dd {
+        text-align: start;
+        width: 100%;
+    }
+
+    details[open] summary::before {
+        content: "⮝""\00a0";
+    }
+
+    details summary::before {
+        content: "⮟""\00a0";
+        transition: transform 0.2s ease-in-out;
+
+    }
+
+    /* *************************************oitava sessao************************************ */
+    .oitava-sessao {
+        text-align: center;
+        padding: 5vw;
+    }
+
+    /* **************************************************nona sessao******************************* */
+    .nona-sessao {
+        padding: 5vw;
+        text-align: center;
+    }
+
+    .botao-wpp img {
+        width: 15vw;
+    }
+
+    .botao-wpp {
+        background-color: transparent;
+        border: none;
+    }
+
+    .whatsapp-nona-sessao {
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+        align-items: center;
+    }
+
+    .whatsapp-span {
+        width: 60%;
+        font-size: 4.5vw;
+        font-weight: 800;
+    }
+
+    .footer-site {
+        padding: 5vw;
+        font-size: 3vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-rodape, .primeiro-conteudo-rodape, .segundo-conteudo-rodape, .informacoes-legais-empresa {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .redes-sociais-rodape img {
+        width: 5vw;
+    }
+
+    .navegacao-header-rodape {
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+        justify-content: center;
+    }
+}
