@@ -33,6 +33,14 @@ main {
     letter-spacing: 0.02vw;
 }
 
+.quebra-linha-preco-quinta-sessao {
+    display: block;
+}
+
+.margin-quebra {
+    margin: 2vw;
+}
+
 /* carrossel */
 .carrossel-cards-sexta-sessao {
     overflow-x: auto;
@@ -688,13 +696,8 @@ textarea {
         font-size: 1.4vw;
     }
 
-    .quebra-linha-preco-quinta-sessao {
-        display: block;
-    }
 
-    .margin-quebra {
-        margin: 0.5vw;
-    }
+
 
     .estilo-card-preco-quinta-sessao {
         font-weight: 800;
