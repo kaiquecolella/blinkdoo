@@ -1,8 +1,8 @@
 /* ******************************************************************************************** */
 /* Padroes que nao necessariamente necessitam da responsividade */
 /* ******************************************************************************************** */
-*,
-footer {
+
+*, footer {
     font-family: 'Cabin', sans-serif;
     caret-color: transparent;
 }
@@ -424,6 +424,7 @@ textarea {
     .menu-toggle {
         display: none;
     }
+
 
     .navegacao-mobile {
         display: none;
@@ -965,11 +966,11 @@ textarea {
     }
 
     details[open] summary::before {
-        content: "⮝" "\00a0";
+        content: "⮝""\00a0";
     }
 
     details summary::before {
-        content: "⮟" "\00a0";
+        content: "⮟""\00a0";
         transition: transform 0.2s ease-in-out;
     }
 
@@ -1230,18 +1231,18 @@ textarea {
     /* fim padroes */
 
     h1 {
-        font-size: 6vw;
+        font-size: 8vw;
         font-weight: 600;
     }
 
     .titulo-sexta-sessao .titulo-secundario {
-        font-size: 5vw;
+        font-size: 7vw;
         font-weight: 100;
     }
 
     .titulo-secundario {
         font-weight: 700;
-        font-size: 5vw;
+        font-size: 9vw;
     }
 
     /* ******************************************* barra de navegação******************************************* */
@@ -1249,24 +1250,38 @@ textarea {
         display: none;
     }
 
-
+    /* kaique aqui */
 
     /* MENU MOBILE */
     .menu-toggle {
         cursor: pointer;
-        text-align: end;
+    }
+    .menu-icon img {
+        width: 7vw;
+        fill: white;
     }
 
     .menu-icon {
         transition: transform 1s;
     }
-    
+
+
     .menu-items {
+        height: 100%;
         display: flex;
         flex-direction: column;
-        gap: 2vw;
+        gap: 5vw;
         align-items: end;
+        margin: 5vw 0px;
         padding-right: 5vw;
+        justify-content: start;
+    }
+
+    .menu-items a {
+        background-color: #ebebeb2a;
+        padding: 1vw;
+        border-radius: 1vw;
+        font-size: 4vw;
     }
 
 
@@ -1289,19 +1304,26 @@ textarea {
         width: 60%;
         padding-top: 20px;
     }
-*/
+    */
 
     .menu {
         position: absolute;
         transform: translateY(-150%);
-        transition: transform 0.5s ease;
-        height: 14%;
+        transition: transform 1s ease;
         width: 100%;
+        border-top: 5px solid rgba(255, 255, 255, 0.295);
+
     }
 
     .menu.open {
-        max-height: 13%;
+        padding: 1vw;
         transform: translateY(0%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        margin-top: 15%;
     }
 
 
@@ -1315,6 +1337,7 @@ textarea {
     /* NAV MOBILE */
     main {
         font-size: 3.5vw;
+        margin-top: 15%;
     }
 
     .navegacao-mobile {
@@ -1322,10 +1345,15 @@ textarea {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 90%;
+        z-index: 9999;
     }
 
-    .navegacao-mobile img {
-        width: 30vw;
+    .logo-header-mobile img {
+        width: 40vw;
     }
 
     .menu {
@@ -1339,7 +1367,10 @@ textarea {
     }
 
     /* ****************************************primeira sessao*********************************** */
-
+    .primeira-sessao {
+        margin-top: 20vw;
+        font-size: 5vw;
+    }
     .segundo-conteudo-primeira-sessao {
         margin: 2.5vw 0px;
     }
@@ -1349,7 +1380,7 @@ textarea {
     }
 
     .button {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     /* ****************************************segunda sessao*********************************** */
@@ -1367,11 +1398,12 @@ textarea {
 
     .card {
         border-radius: 5%;
-        width: 40%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         gap: 2vw;
         padding: 3vw;
+        font-size: 5vw;
     }
 
     .card img {
@@ -1381,7 +1413,12 @@ textarea {
     /************************************************* quarta-sessao *****************************************/
     .quarta-sessao {
         text-align: center;
+        font-size: 4vw;
     }
+    .titulo-quarta-sessao .titulo-secundario {
+        font-size: 8vw;
+    }
+
 
     .botao-quarta-sessao {
         margin-bottom: 5vw;
@@ -1396,6 +1433,7 @@ textarea {
         justify-content: center;
         gap: 3vw;
         border-radius: 10%;
+        padding: 2vw;
     }
 
     .conteudo-direito-quarta-sessao {
@@ -1417,6 +1455,7 @@ textarea {
     /* **********************************quinta sessao******************************** */
     .quinta-sessao {
         text-align: center;
+        font-size: 5vw;
     }
 
     .cards-quinta-sessao-nossos-pacotes {
@@ -1427,7 +1466,7 @@ textarea {
     }
 
     .card-quinta-sessao {
-        width: 50%;
+        width: 70%;
         padding: 1vw;
         border-radius: 2vw;
     }
@@ -1437,8 +1476,9 @@ textarea {
     }
 
     .titulo-card-quinta-sessao {
-        font-size: 5vw;
+        font-size: 8vw;
         padding: 1.2vw;
+        font-weight: 700;
     }
 
     .estilo-preco-card-quinta-sessao {
@@ -1480,6 +1520,7 @@ textarea {
     .separacao-card-adicional-quinta-sessao {
         display: flex;
         gap: 3vw;
+        font-size: 4vw;
     }
 
     .card-adicional-quinta-sessao {
@@ -1504,10 +1545,13 @@ textarea {
 
     /* **********************************************sexta sessao****************************************** */
 
+    .sexta-sessao {
+        font-size: 5vw;
+    }
     .titulo-sexta-sessao {
         text-align: center;
         padding: 5vw;
-        font-size: 5vw;
+        font-size: 9vw;
         font-weight: 800;
     }
 
@@ -1533,9 +1577,9 @@ textarea {
         align-items: center;
         gap: 5vw;
     }
-
+    
     .card-clientes-sexta-sessao {
-        width: 50%;
+        width: 70%;
         padding: 5vw;
         border-radius: 4vw;
         display: flex;
@@ -1603,11 +1647,11 @@ textarea {
     }
 
     details[open] summary::before {
-        content: "⮝" "\00a0";
+        content: "⮝""\00a0";
     }
 
     details summary::before {
-        content: "⮟" "\00a0";
+        content: "⮟""\00a0";
         transition: transform 0.2s ease-in-out;
 
     }
