@@ -22,6 +22,7 @@ $(function() {
       });
 })
 
+// menu sanduiche
 const menuToggle = document.querySelector('.menu-toggle');
 const menu = document.querySelector('.menu');
 
@@ -30,4 +31,16 @@ menuToggle.addEventListener('click', function() {
   menuToggle.classList.toggle('open');
 });
 
+// troca de icon menu sanduiche
+const menuIcon = document.querySelector('.menu-icon');
+
+menuToggle.addEventListener('click', function() {
+  menuIcon.classList.toggle('open');
+  
+  if (menuIcon.classList.contains('open')) {
+    menuIcon.textContent = 'close';
+  } else {
+    menuIcon.textContent = 'menu';
+  }
+});
 
