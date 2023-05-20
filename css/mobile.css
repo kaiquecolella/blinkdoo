@@ -1,0 +1,494 @@
+@media(max-width: 767px) {
+
+    /* padroes fixos */
+    .primeira-sessao,
+    .segunda-sessao,
+    .quarta-sessao,
+    .quinta-sessao {
+        padding: 5vw;
+    }
+
+    .titulo-secundario {
+        margin-bottom: 5vw;
+    }
+
+    /* fim padroes */
+
+    h1 {
+        font-size: 8vw;
+        font-weight: 600;
+    }
+
+    .titulo-sexta-sessao .titulo-secundario {
+        font-size: 7vw;
+        font-weight: 100;
+    }
+
+    .titulo-secundario {
+        font-weight: 700;
+        font-size: 9vw;
+    }
+
+    /* ******************************************* barra de navegação******************************************* */
+    .cabecalho {
+        display: none;
+    }
+
+    /* kaique aqui */
+
+    /* MENU MOBILE */
+    .menu-toggle {
+        cursor: pointer;
+    }
+    .menu-icon img {
+        width: 7vw;
+        fill: white;
+    }
+
+    .menu-icon {
+        transition: transform 1s;
+    }
+
+
+    .menu-items {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        align-items: end;
+        margin: 5vw 0px;
+        padding-right: 5vw;
+        justify-content: start;
+    }
+
+    .menu-items a {
+        background-color: #ebebeb2a;
+        padding: 1vw;
+        border-radius: 1vw;
+        font-size: 4vw;
+    }
+
+
+    .logo-header-mobile img {
+        display: block;
+    }
+
+    /*  
+    .menu {
+        display: none;
+    }
+    
+    .menu.open {
+        display: block;
+        background-color: #2093bf;
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        height: 100%;
+        width: 60%;
+        padding-top: 20px;
+    }
+    */
+
+    .menu {
+        position: absolute;
+        transform: translateY(-150%);
+        transition: transform 1s ease;
+        width: 100%;
+        border-top: 5px solid rgba(255, 255, 255, 0.295);
+
+    }
+
+    .menu.open {
+        padding: 1vw;
+        transform: translateY(0%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        margin-top: 15%;
+    }
+
+
+
+    .redes-sociais-header {
+        background-color: #008b00;
+    }
+
+
+
+    /* NAV MOBILE */
+    main {
+        font-size: 3.5vw;
+        margin-top: 15%;
+    }
+
+    .navegacao-mobile {
+        padding: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 90%;
+        z-index: 9999;
+    }
+
+    .logo-header-mobile img {
+        width: 40vw;
+    }
+
+    .menu {
+        text-align: center;
+        font-size: 3vw;
+        padding-bottom: 2.5vw;
+    }
+
+    .material-symbols-outlined {
+        color: white;
+    }
+
+    /* ****************************************primeira sessao*********************************** */
+    .primeira-sessao {
+        margin-top: 20vw;
+        font-size: 5vw;
+    }
+    .segundo-conteudo-primeira-sessao {
+        margin: 2.5vw 0px;
+    }
+
+    .terceiro-conteudo-primeira-sessao {
+        text-align: center;
+    }
+
+    .button {
+        font-size: 5vw;
+    }
+
+    /* ****************************************segunda sessao*********************************** */
+    .segunda-sessao {
+        text-align: center;
+    }
+
+    .cards-segunda-sessao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2vw;
+    }
+
+    .card {
+        border-radius: 5%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        padding: 3vw;
+        font-size: 5vw;
+    }
+
+    .card img {
+        width: 12vw;
+    }
+
+    /************************************************* quarta-sessao *****************************************/
+    .quarta-sessao {
+        text-align: center;
+        font-size: 4vw;
+    }
+    .titulo-quarta-sessao .titulo-secundario {
+        font-size: 8vw;
+    }
+
+
+    .botao-quarta-sessao {
+        margin-bottom: 5vw;
+    }
+
+    .card-quarta-sessao {
+        width: 25vw;
+        height: 25vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        border-radius: 10%;
+        padding: 2vw;
+    }
+
+    .conteudo-direito-quarta-sessao {
+        display: flex;
+        gap: 5vw;
+        justify-content: center;
+    }
+
+    .quarta-sessao img {
+        width: 9vw;
+    }
+
+    .separacao-card-quarta-sessao {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    /* **********************************quinta sessao******************************** */
+    .quinta-sessao {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .cards-quinta-sessao-nossos-pacotes {
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+        align-items: center;
+    }
+
+    .card-quinta-sessao {
+        width: 70%;
+        padding: 1vw;
+        border-radius: 2vw;
+    }
+
+    .precificacao-card-quinta-sessao {
+        border-radius: 2vw 2vw 0px 0px;
+    }
+
+    .titulo-card-quinta-sessao {
+        font-size: 8vw;
+        padding: 1.2vw;
+        font-weight: 700;
+    }
+
+    .estilo-preco-card-quinta-sessao {
+        font-weight: 900;
+        font-size: 10vw;
+    }
+
+    .descricao-card-quinta-sessao {
+        padding: 1.2vw;
+    }
+
+    .informacoes-card-quinta-sessao {
+        padding: 1.2vw;
+    }
+
+    .destaque {
+        font-size: 5vw;
+        font-weight: 800;
+    }
+
+    .botao-card-quinta-sessao {
+        margin: 1.2vw;
+    }
+
+    .conteudo-descricao-adicionais-quinta-sessao {
+        margin-top: 5vw;
+    }
+
+    .cards-quinta-sessao-conteudo-adicional {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        font-size: 3.5vw;
+        align-items: center;
+        margin-bottom: 5vw;
+
+    }
+
+    .separacao-card-adicional-quinta-sessao {
+        display: flex;
+        gap: 3vw;
+        font-size: 4vw;
+    }
+
+    .card-adicional-quinta-sessao {
+        width: 20vw;
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 1vw;
+        border-radius: 3vw;
+    }
+
+    .terceiro-conteudo-quinta-sessao {
+
+        display: flex;
+        text-align: start;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+    }
+
+    /* **********************************************sexta sessao****************************************** */
+
+    .sexta-sessao {
+        font-size: 5vw;
+    }
+    .titulo-sexta-sessao {
+        text-align: center;
+        padding: 5vw;
+        font-size: 9vw;
+        font-weight: 800;
+    }
+
+    .seta-esquerda,
+    .seta-direita,
+    .seta-direita img,
+    .seta-esquerda img {
+        height: 0px;
+        width: 0px;
+        margin-left: -1000px;
+        display: none;
+    }
+
+    .titulo-sexta-sessao-segundo-conteudo {
+        padding: 5vw 0px 0px 0px;
+        text-align: center;
+    }
+
+    .cards-clientes-sexta-sessao {
+        padding: 0px 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5vw;
+    }
+    
+    .card-clientes-sexta-sessao {
+        width: 70%;
+        padding: 5vw;
+        border-radius: 4vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2vw;
+        margin-bottom: 5vw;
+
+    }
+
+    .citacao-cliente-sexta-sessao {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .nome-cliente-sexta-sessao {
+        text-align: center;
+        font-size: 5vw;
+        margin-bottom: 1vw;
+        font-weight: 800;
+    }
+
+    .estrela-sexta-sessao {
+        width: 6vw;
+    }
+
+    /* ************************************setima sessao**************************************** */
+    .setima-sessao {
+        padding: 5%;
+        text-align: center;
+    }
+
+    details {
+        width: 70%;
+        margin: 2vw 15% 0.5vw;
+        padding: 1vw;
+        transition: all 0.5s ease-in-out;
+        max-height: 30px;
+    }
+
+    summary {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        width: 100%;
+        cursor: pointer;
+
+    }
+
+    details[open] dd {
+        margin-top: 1vw;
+        padding: 1vw 0px;
+    }
+
+    details[open] {
+        padding: 1vw;
+        max-height: 500px;
+    }
+
+    dd {
+        text-align: start;
+        width: 100%;
+    }
+
+    /* *************************************oitava sessao************************************ */
+    .oitava-sessao {
+        text-align: center;
+        padding: 5vw;
+    }
+
+    /* **************************************************nona sessao******************************* */
+    .nona-sessao {
+        padding: 5vw;
+        text-align: center;
+    }
+
+    .botao-wpp img {
+        width: 15vw;
+    }
+
+    .botao-wpp {
+        background-color: transparent;
+        border: none;
+    }
+
+    .whatsapp-nona-sessao {
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+        align-items: center;
+    }
+
+    .whatsapp-span {
+        width: 60%;
+        font-size: 4.5vw;
+        font-weight: 800;
+    }
+
+    .footer-site {
+        padding: 5vw;
+        font-size: 3vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-rodape,
+    .primeiro-conteudo-rodape,
+    .segundo-conteudo-rodape,
+    .informacoes-legais-empresa {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .redes-sociais-rodape img {
+        width: 5vw;
+    }
+
+    .navegacao-header-rodape {
+        display: flex;
+        gap: 2vw;
+        align-items: center;
+        justify-content: center;
+    }
+}

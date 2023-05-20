@@ -1,0 +1,26 @@
+.whatsapp-manutencao-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2vw;    
+    text-align: center;
+    flex-direction: column
+}
+.logo-whats {
+    background-color: #2093bf;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatsapp-manutencao{
+    font-size: 2.5rem;
+}
+.whatsapp-manutencao-titulo {
+    width: 80%;
+    margin: 0px 10%;
+}
+.whatsapp-manutencao-titulo img {
+    width: 8rem;
+}
