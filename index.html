@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- arquivos css -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/desktop.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <!-- java script -->
+    <script src="js/jquery-3.7.0.js"></script>
+    <!-- fontes do site -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+    <title>Blinkdoo</title>
+</head>
+<body>
+    <!-- Barra de navegação do menu principal -->
+    <header>
+        <nav class="cabecalho">
+            <ul>
+                <ul class="logo-header">
+                    <li><a href="index.html"><img src="img/blinkdoo.png" alt=""></a></li>
+                </ul>
+                <ul class="navegacao-header">
+                    <li><a href="#como-funciona">como funciona</a></li>
+                    <li><a href="#pacotes">pacotes</a></li>
+                    <li><a href="#trabalhos">trabalhos</a></li>
+                    <li><a href="#contato">contato</a></li>
+                </ul>
+                <ul>
+                    <li class="redes-sociais-header">
+                        <button class="button cabecalho-botao"><a href="#pacotes">Solicitar meu design</a></button>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
+        <div class="navegacao-mobile">
+            <span class="logo-header-mobile"><a href="index.html"><img src="img/blinkdoo.png" alt=""></a></span>
+            <div class="aumentar-toggle">
+                <div class="menu-toggle">
+                    <span class="menu-sanduiche menu-icon">
+                        <img class="menu-sanduiche" src="img/menu.png" alt="">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <nav class="menu">
+            <ul class="menu-items">
+                <li><a href="#como-funciona-mobile">como funciona</a></li>
+                <li><a href="#pacotes-mobile">pacotes</a></li>
+                <li><a href="#trabalhos-mobile">trabalhos</a></li>
+                <li><a href="#contato-mobile">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Inicio do conteudo do site -->
+    <main>
+        <!-- Primeira sessao - possui informações rapidas do site e uma imagem ilustrativa -->
+        <section class="primeira-sessao">
+            <div class="conteudo-esquerdo-primeira-sessao">
+                <div class="primeiro-conteudo-primeira-sessao">
+                    <h1 class="titulo titulo-primeira-sessao">
+                        Suas primeiras ideias ganharão vida em até dois dias úteis!
+                    </h1>
+                </div>
+                <div class="segundo-conteudo-primeira-sessao">
+                    <p>
+                        Nós somos feras na criação de logotipos! Já produzimos mais de 10 mil designs incríveis em mais
+                        de 2 anos de mercado! E agora, estamos preparados para dar um up no visual da sua marca! bora
+                        lá?
+                    </p>
+                </div>
+                <div class="terceiro-conteudo-primeira-sessao">
+                    <button class="button button-primeira-sessao"><a href="#pacotes">Solicitar meu design</a></button>
+                </div>
+            </div>
+            <div class="conteudo-direito-primeira-sessao">
+                <img src="img/flyer-primeira-sessao.svg" alt="" imagem ilustrativa de pessoas trabalhando no seu logo">
+            </div>
+        </section>
+        <!-- Segunda sessao - possui cards explicando como funciona nossos servicos -->
+        <section id="como-funciona" class="segunda-sessao rolagem-mobile">
+            <div id="como-funciona-mobile" class="primeiro-conteudo-segunda-sessao recuo-mobile">
+                <h2 class="titulo-secundario titulo-segunda-sessao">
+                    Como funciona
+                </h2>
+            </div>
+            <div class="cards-segunda-sessao">
+                <div class="card primeiro-card-segunda-sessao">
+                    <div>
+                        <div class="imagem-card-segunda-sessao">
+                            <img src="img/icon-tap.gif" alt="">
+                        </div>
+                        <div class="paragrafo-card-segunda-sessao">
+                            <p>
+                                Preencha o formulário de criação com informações relevantes sobre o seu negócio e
+                                finalize o pedido. Simples e rápido!
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="botao-card-segunda-sessao">
+                        <button class="button button-cards-segunda-sessao"><a href="#pacotes">ver pacotes</a></button>
+                    </div>
+                </div>
+                <div class="card segundo-card-segunda-sessao">
+                    <div>
+                        <div class="imagem-card-segunda-sessao">
+                            <img src="img/icon-form.gif" alt="">
+                        </div>
+                        <div class="paragrafo-card-segunda-sessao">
+                            <p>
+                                Após a confirmação do seu pagamento, em até dois dias úteis enviaremos as primeiras
+                                ideias para você avaliar. Fique à vontade para solicitar quantas revisões precisar.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="botao-card-segunda-sessao">
+                        <button class="button button-cards-segunda-sessao"><a href="#pacotes">ver pacotes</a></button>
+                    </div>
+
+                </div>
+                <div class="card terceiro-card-segunda-sessao">
+                    <div>
+                        <div class="imagem-card-segunda-sessao">
+                            <img src="img/icon-idea.gif" alt="">
+                        </div>
+                        <div class="paragrafo-card-segunda-sessao">
+                            <p>
+                                Assim que você escolher a sua ideia favorita, vamos enviar os arquivos finais do seu
+                                logotipo personalizado para você começar a usar! Fácil demais, né?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card quarto-card-segunda-sessao">
+                    <div>
+                        <div class="imagem-card-segunda-sessao">
+                            <img src="img/icon-check.gif" alt="">
+                        </div>
+                        <div class="paragrafo-card-segunda-sessao">
+                            <p>
+                                Pronto para turbinar o visual da sua marca? É só clicar no botão e preencher o
+                                formulário de criação!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="botao-card-segunda-sessao">
+                        <button class="button button-cards-segunda-sessao"><a href="#pacotes">ver pacotes</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Terceira sessao - possui um video explicativo e intuitivo de como fazemos o logo -->
+        <section class="terceira-sessao">
+            <div class="conteudo-terceira-sessao">
+                <div class="titulo titulo-terceira-sessao">
+                    <h2>
+                        Assista ao vídeo e entenda em menos de 1 minuto como funciona o nosso serviço
+                    </h2>
+                </div>
+                <div class="botao-terceira-sessao">
+                    <button><a href="">Quero pedir meu logotipo</a></button>
+                </div>
+                <div class="video-terceira-sessao">
+                </div>
+            </div>
+        </section>
+        <!-- Quarta sessao - demonstra as vontagens de fazer o servico conosco -->
+        <section class="quarta-sessao">
+            <div class="conteudo-quarta-sessao">
+                <div class="conteudo-esquerdo-quarta-sessao">
+                    <div class="titulo-quarta-sessao">
+                        <h2 class="titulo-secundario">
+                            Venha conhecer de perto todas as vantagens que a Blinkdoo pode oferecer para o seu projeto.
+                        </h2>
+                    </div>
+                    <div class="botao-quarta-sessao">
+                        <button class="button"><a href="#pacotes">Solicitar meu design</a></button>
+                    </div>
+                </div>
+                <div class="conteudo-direito-quarta-sessao">
+                    <div class="separacao-card-quarta-sessao">
+                        <div class="card-quarta-sessao primeiro-card-quarta-sessao">
+                            <img class="icon-quarta-sessao" src="img/clock.png" alt="">
+                            <p>Primeiras ideias em 48h úteis</p>
+                        </div>
+                        <div class="card-quarta-sessao segundo-card-quarta-sessao">
+                            <img class="icon-quarta-sessao" src="img/idea.png" alt="">
+                            <p>Ideias exclusivas</p>
+                        </div>
+                        <div class="card-quarta-sessao terceiro-card-quarta-sessao">
+                            <img class="icon-quarta-sessao" src="img/document.png" alt="">
+                            <p>Versões com fundo transparente</p>
+                        </div>
+                    </div>
+                    <div class="separacao-card-quarta-sessao">
+                        <div class="card-quarta-sessao quarto-card-quarta-sessao">
+                            <img class="icon-quarta-sessao" src="img/review.png" alt="">
+                            <p>Revisões ilimitadas</p>
+                        </div>
+                        <div class="card-quarta-sessao quinto-card-quarta-sessao">
+                            <img class="icon-quarta-sessao" src="img/hand.png" alt="">
+                            <p>Pagamento em até 12x sem juros</p>
+                        </div>
+                        <div class="card-quarta-sessao sexto-card-quarta-sessao">
+                            <img class="icon-quarta-sessao" src="img/archive.png" alt="">
+                            <p>Versões em preto e branco</p>
+                        </div>
+                    </div>
+                    <div class="separacao-card-quarta-sessao">
+                        <div class="card-quarta-sessao setimo-card-quarta-sessao">
+                            <img class="icon-quarta-sessao" src="img/group.png" alt="">
+                            <p>Feito por pessoas</p>
+                        </div>
+                        <div class="card-quarta-sessao oitavo-card-quarta-sessao">
+                            <img class="icon-quarta-sessao" src="img/computer.png" alt="">
+                            <p>Arquivos em alta resolução</p>
+                        </div>
+                        <div class="card-quarta-sessao nono-card-quarta-sessao">
+                            <img class="icon-quarta-sessao" src="img/chat.png" alt="">
+                            <p>Atendimento por Whatsapp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Quinta sessao - informa os pacotes para adiquirir os produtos -->
+        <section id="pacotes" class="quinta-sessao">
+            <div id="pacotes-mobile" class="conteudo-quinta-sessao recuo-mobile">
+                <div class="titulo-quinta-sessao titulo-secundario">
+                    <h2 class="titulo-secundario">
+                        Nossos pacotes
+                    </h2>
+                </div>
+                <div class="cards-quinta-sessao-nossos-pacotes">
+                    <article class="card-quinta-sessao">
+                        <div class="conteudo-card-quinta-sessao">
+                            <div class="precificacao-card-quinta-sessao">
+                                <div class="titulo-card-quinta-sessao">
+                                    Pacote Essencial
+                                </div>
+                                <div class="preco-card-quinta-sessao">
+                                    <span class="estilo-preco-card-quinta-sessao fonte-preco">129</span><span
+                                        class="centavos-preco-quinta-sessao">,99</span>
+                                </div>
+                                <div class="descricao-card-quinta-sessao fonte-parcelamento">
+                                    ou em até 10x de <span class="quebra-linha-preco-quinta-sessao">R$ 12,99 sem
+                                        juros</span>
+                                </div>
+                            </div>
+                            <div class="informacoes-card-quinta-sessao desconto-pix-card-quinta-sessao">
+                                <span class="cor-pix "> 10% de desconto no Pix: </span><span
+                                    class="quebra-linha-preco-quinta-sessao fonte-pix">R$116,99</span>
+                            </div>
+                            <div
+                                class="informacoes-card-quinta-sessao  espaco-card-quinta-sessao texto-bold-quinta-sessao">
+                                Criação de Logotipo.
+                            </div>
+                            <div
+                                class="informacoes-card-quinta-sessao  espaco-card-quinta-sessao texto-bold-quinta-sessao">
+                                <span class="destaque">Sem </span> arte adicional.
+                            </div>
+                        </div>
+                        <button class="button botao-card-quinta-sessao">
+                            solicitar
+                        </button>
+                    </article>
+                    <article class="card-quinta-sessao">
+                        <div class="conteudo-card-quinta-sessao">
+                            <div class="precificacao-card-quinta-sessao">
+                                <div class="titulo-card-quinta-sessao">
+                                    Pacote Avançado
+                                </div>
+                                <div class="preco-card-quinta-sessao">
+                                    <span class="estilo-preco-card-quinta-sessao fonte-preco">189</span><span
+                                        class="centavos-preco-quinta-sessao">,99</span>
+                                </div>
+                                <div class="descricao-card-quinta-sessao fonte-parcelamento">
+                                    ou em até 10x de <span class="quebra-linha-preco-quinta-sessao">R$ 18,99 sem
+                                        juros</span>
+                                </div>
+                            </div>
+                            <div class="informacoes-card-quinta-sessao desconto-pix-card-quinta-sessao">
+                                <span class="cor-pix "> 10% de desconto no Pix: </span><span
+                                    class="quebra-linha-preco-quinta-sessao fonte-pix">R$170,99</span>
+                            </div>
+                            <div
+                                class="informacoes-card-quinta-sessao  espaco-card-quinta-sessao texto-bold-quinta-sessao">
+                                Criação de Logotipo.
+                            </div>
+                            <div
+                                class="informacoes-card-quinta-sessao  espaco-card-quinta-sessao texto-bold-quinta-sessao">
+                                Escolha até <span class="destaque">01 </span> arte adicional.
+                            </div>
+                        </div>
+                        <button class="button botao-card-quinta-sessao">
+                            solicitar
+                        </button>
+                    </article>
+                    <article class="card-quinta-sessao">
+                        <div class="conteudo-card-quinta-sessao">
+                            <div class="precificacao-card-quinta-sessao">
+                                <div class="titulo-card-quinta-sessao">
+                                    Pacote Premium
+                                </div>
+                                <div class="preco-card-quinta-sessao">
+                                    <span class="estilo-preco-card-quinta-sessao fonte-preco">229</span><span
+                                        class="centavos-preco-quinta-sessao">,99</span>
+                                </div>
+                                <div class="descricao-card-quinta-sessao fonte-parcelamento">
+                                    ou em até 10x de <span class="quebra-linha-preco-quinta-sessao">R$ 22,99 sem
+                                        juros</span>
+                                </div>
+                            </div>
+                            <div class="informacoes-card-quinta-sessao desconto-pix-card-quinta-sessao">
+                                <span class="cor-pix "> 10% de desconto no Pix: </span><span
+                                    class="quebra-linha-preco-quinta-sessao fonte-pix">R$206,99</span>
+                            </div>
+                            <div
+                                class="informacoes-card-quinta-sessao  espaco-card-quinta-sessao texto-bold-quinta-sessao">
+                                Criação de Logotipo.
+                            </div>
+                            <div
+                                class="informacoes-card-quinta-sessao  espaco-card-quinta-sessao texto-bold-quinta-sessao">
+                                Escolha até <span class="destaque">03 </span>artes adicionais.
+                            </div>
+                        </div>
+                        <button class="button botao-card-quinta-sessao">
+                            solicitar
+                        </button>
+                    </article>
+                    <article class="card-quinta-sessao">
+                        <div class="conteudo-card-quinta-sessao">
+                            <div class="precificacao-card-quinta-sessao">
+                                <div class="titulo-card-quinta-sessao">
+                                    Pacote Supremo
+                                </div>
+                                <div class="preco-card-quinta-sessao">
+                                    <span class="estilo-preco-card-quinta-sessao fonte-preco">299</span><span
+                                        class="centavos-preco-quinta-sessao">,99</span>
+                                </div>
+                                <div class="descricao-card-quinta-sessao fonte-parcelamento">
+                                    ou em até 10x de <span class="quebra-linha-preco-quinta-sessao">R$ 29,99 sem
+                                        juros</span>
+                                </div>
+                            </div>
+                            <div class="informacoes-card-quinta-sessao desconto-pix-card-quinta-sessao">
+                                <span class="cor-pix "> 10% de desconto no Pix: </span><span
+                                    class="quebra-linha-preco-quinta-sessao fonte-pix">R$269,99</span>
+                            </div>
+                            <div
+                                class="informacoes-card-quinta-sessao  espaco-card-quinta-sessao texto-bold-quinta-sessao">
+                                Criação de Logotipo.
+                            </div>
+                            <div
+                                class="informacoes-card-quinta-sessao  espaco-card-quinta-sessao texto-bold-quinta-sessao">
+                                Escolha até <span class="destaque">06 </span> artes adicionais.
+                            </div>
+                        </div>
+                        <button class="button botao-card-quinta-sessao">
+                            solicitar
+                        </button>
+                    </article>
+                </div>
+                <div class="conteudo-descricao-adicionais-quinta-sessao">
+                    <div class="titulo-descricao-adcionais-quinta-sessao titulo-secundario">
+                        <h3>
+                            Artes adicionais que você pode escolher nos pacotes Avançado, Premium e Supremo:
+                        </h3>
+                    </div>
+                    <div class="cards-quinta-sessao-conteudo-adicional">
+                        <div class="separacao-card-adicional-quinta-sessao">
+                            <div class="card-adicional-quinta-sessao">
+                                Design de cartão de visita
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para papel timbrado
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para Assinatura de e-mail
+                            </div>
+                        </div>
+                        <div class="separacao-card-adicional-quinta-sessao">
+                            <div class="card-adicional-quinta-sessao">
+                                Design para envelope grande
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para envelope pequeno
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para pasta com bolsa interna
+                            </div>
+                        </div>
+                        <div class="separacao-card-adicional-quinta-sessao">
+                            <div class="card-adicional-quinta-sessao">
+                                Design para envelope médio
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para Sacola
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para destaques do Instagram
+                            </div>
+                        </div>
+                        <div class="separacao-card-adicional-quinta-sessao">
+                            <div class="card-adicional-quinta-sessao">
+                                Design para capa de Facebook
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para capa de Youtube
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para capa de Linkedin
+                            </div>
+                        </div>
+                        <div class="separacao-card-adicional-quinta-sessao">
+                            <div class="card-adicional-quinta-sessao">
+                                Design para Etiqueta
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para fundo de Stories do Instagram
+                            </div>
+                            <div class="card-adicional-quinta-sessao">
+                                Design para moldura de post do Instagram
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conteudo-especifico-quinta-sessao">
+                        <div class="terceiro-conteudo-quinta-sessao">
+                            <div>
+                                Não encontrou o que precisa em nosso catálogo de artes? Sem problemas! Na Blinkdoo,
+                                estamos sempre prontos para atender às suas necessidades de design. Se você precisa de
+                                uma arte personalizada ou de um pacote que atenda às suas demandas específicas, basta
+                                entrar em contato conosco que teremos o prazer de ajudá-lo.
+                            </div>
+                            <button class="button button-primeira-sessao">
+                                <a href="#contato">entrar em contato</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sexta sessao mostra alguns dos nossos trabalhos e tambem comentarios de clientes -->
+        <section class="sexta-sessao">
+            <div class="conteudo-sexta-sessao">
+                <div  id="trabalhos" class="primeiro-conteudo-sexta-sessao">
+                    <div class="titulo-sexta-sessao">
+                        <h2  id="trabalhos-mobile"  class="fonte-sexta-sessao recuo-mobile">
+                            Confira alguns exemplos de nossos trabalhos:
+                        </h2>
+                    </div>
+                    <div class="carrossel-cards-sexta-sessao">
+                        <div class="galeria">
+                            <img class="img-carrossel item-atual" src="img/estampa.png" alt="">
+                            <img class="img-carrossel item-atual" src="img/logo final.png" alt="">
+                            <img class="img-carrossel item-atual" src="img/logo2.png" alt="">
+                            <img class="img-carrossel item-atual" src="img/estampa.png" alt="">
+                            <img class="img-carrossel item-atual" src="img/logo final.png" alt="">
+                            <img class="img-carrossel item-atual" src="img/logo2.png" alt="">
+                            <img class="img-carrossel item-atual" src="img/estampa.png" alt="">
+                            <img class="img-carrossel item-atual" src="img/logo final.png" alt="">
+                            <img class="img-carrossel item-atual" src="img/logo2.png" alt="">
+                        </div>
+                        <button class="seta-esquerda">
+                            <img src="img/seta-esquerda.png" alt="">
+                        </button>
+                        <button class="seta-direita">
+                            <img src="img/seta-direita.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="segundo-conteudo-sexta-sessao">
+                    <div class="titulo-sexta-sessao-segundo-conteudo">
+                        <h2 class="titulo-secundario">
+                            O que dizem nossos clientes
+                        </h2>
+                    </div>
+                    <div class="cards-clientes-sexta-sessao">
+                        <div class="card-clientes-sexta-sessao">
+                            <div class="estrelas-card-sexta-sessao">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                            </div>
+                            <blockquote class="citacao-cliente-sexta-sessao">
+                                <div class="texto-cliente-sexta-sessao">
+                                    A Blinkdoo é simplesmente incrível quando se trata de criar logotipos! Eu já usei o
+                                    serviço várias vezes e sempre fico impressionado com o resultado final. A equipe é
+                                    super atenciosa e sempre me ajuda a alcançar a imagem perfeita para a minha marca.
+                                    Não há dúvidas de que a Blinkdoo é a melhor escolha para quem deseja um logotipo
+                                    incrível!
+                                </div>
+                                <div class="trabalho-sexta-sessao">
+                                    <span>
+                                        <div class="nome-cliente-sexta-sessao">
+                                            Pedro Helpa
+                                        </div>
+                                        <div class="servico-sexta-sessao">
+                                            Logotipo: Doca Beer, Doca Insumos, Helpa Empreendimentos, Madame Salon
+                                        </div>
+                                    </span>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="card-clientes-sexta-sessao">
+                            <div class="estrelas-card-sexta-sessao">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                            </div>
+                            <blockquote class="citacao-cliente-sexta-sessao">
+                                <div class="texto-cliente-sexta-sessao">
+                                    A Blinkdoo arrasou na criação do meu logotipo! Fiquei maravilhado com o resultado
+                                    final, que superou todas as minhas expectativas. Além disso, o atendimento foi
+                                    excepcional, com uma equipe super prestativa e atenta a todos os detalhes. Sem
+                                    dúvida, se eu precisar de um logotipo novamente, a Blinkdoo será a minha primeira
+                                    escolha!
+                                </div>
+                                <div class="trabalho-sexta-sessao">
+                                    <span class="footer-trabalho-sexta-sessao">
+                                        <div class="nome-cliente-sexta-sessao">
+                                            Pedro Helpa
+                                        </div>
+                                        <div class="servico-sexta-sessao">
+                                            Logotipo: Doca Beer, Doca Insumos, Helpa Empreendimentos, Madame Salon
+                                        </div>
+                                    </span>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="card-clientes-sexta-sessao">
+                            <div class="estrelas-card-sexta-sessao">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                            </div>
+                            <blockquote class="citacao-cliente-sexta-sessao">
+                                <div class="texto-cliente-sexta-sessao">
+                                    Fiquei impressionado com a atenção que a Blinkdoo deu a cada detalhe do meu
+                                    logotipo. Eles foram super atenciosos com os meus feedbacks e fizeram todas as
+                                    revisões que precisei. Foi muito legal ver o cuidado que eles têm para deixar o
+                                    cliente feliz com o resultado final!
+                                </div>
+                                <div class="trabalho-sexta-sessao">
+                                    <span>
+                                        <div class="nome-cliente-sexta-sessao">
+                                            Pedro Helpa
+                                        </div>
+                                        <div class="servico-sexta-sessao">
+                                            Logotipo: Doca Beer, Doca Insumos, Helpa Empreendimentos, Madame Salon
+                                        </div>
+                                    </span>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div class="card-clientes-sexta-sessao">
+                            <div class="estrelas-card-sexta-sessao">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                                <img class="estrela-sexta-sessao" src="img/star.png" alt="">
+                            </div>
+                            <blockquote class="citacao-cliente-sexta-sessao">
+                                <div class="texto-cliente-sexta-sessao">
+                                    A equipe da Blinkdoo arrasou na criação do meu logotipo! Não tenho palavras para
+                                    descrever como ficou incrível e como está me ajudando a atrair mais clientes. É
+                                    muito bom saber que existe uma equipe tão dedicada em captar as necessidades do
+                                    cliente e transformá-las em um trabalho espetacular como esse. Muito obrigado,
+                                    Blinkdoo!
+                                </div>
+                                <div class="trabalho-sexta-sessao">
+                                    <span>
+                                        <div class="nome-cliente-sexta-sessao">
+                                            Pedro Helpa
+                                        </div>
+                                        <div class="servico-sexta-sessao">
+                                            Logotipo: Doca Beer, Doca Insumos, Helpa Empreendimentos, Madame Salon
+                                        </div>
+                                    </span>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- setima sessao perguntas frequentes de nossos clientes -->
+        <section class="setima-sessao">
+            <div class="conteudo-setima-sessao">
+                <h2 class="titulo-secundario">
+                    Perguntas frequentes
+                </h2>
+                <dl>
+                    <details>
+                        <summary>
+                            <dt class="pergunta-setima-sessao">
+                                Quais arquivos serão enviados para mim quando eu aprovar uma ideia?
+                            </dt>
+                        </summary>
+                        <dd class="resposta-pergunta-setima-sessao">
+                            Esses são os arquivos que serão enviados ao final do processo de criação do seu logotipo:
+                            <span class="quebra-linha-preco-quinta-sessao margin-quebra">
+                                - Arquivo de criação no formato .Ai;
+                            </span>
+                            <span class="quebra-linha-preco-quinta-sessao margin-quebra">
+                                - Arquivo em vetor/curva no formato .EPS;
+                            </span>
+                            <span class="quebra-linha-preco-quinta-sessao margin-quebra">
+                                - Arquivo em vetor/curva no formato .PDF;
+                            </span>
+                            <span class="quebra-linha-preco-quinta-sessao margin-quebra">
+                                - Arquivo em imagem com fundo em .JPG;
+                            </span>
+                            <span class="quebra-linha-preco-quinta-sessao margin-quebra">
+                                - Arquivo em imagem sem fundo em .PNG;
+                            </span>
+                            <span class="quebra-linha-preco-quinta-sessao">
+                                Se você precisar de algum formato especifico é só nos informar que veremos a
+                                possibilidade de salvar o logotipo nesse formato.
+                            </span>
+                        </dd>
+                    </details>
+                    <details>
+                        <summary>
+                            <dt class="pergunta-setima-sessao">
+                                Como faço para pedir alterações ou novas ideias?
+                            </dt>
+                        </summary>
+                        <dd class="resposta-pergunta-setima-sessao">
+                            Todo o nosso contato é feito via e-mail ou whatsapp. Assim que receber o e-mail com as
+                            ideias, você pode responder esse e-mail pedindo novas ideias ou falar com a gente pelo
+                            whatsapp pedindo novas ideias.
+                        </dd>
+                    </details>
+                    <details>
+                        <summary>
+                            <dt class="pergunta-setima-sessao">
+                                Quantas vezes posso pedir novas ideias ou alterações?
+                            </dt>
+                        </summary>
+                        <dd class="resposta-pergunta-setima-sessao">
+                            Você pode pedir novas ideias e alterações quantas vezes você quiser, até você ficar
+                            satisfeito.
+                        </dd>
+                    </details>
+                    <details>
+                        <summary>
+                            <dt class="pergunta-setima-sessao">
+                                Se eu não gostar das primeiras ideias, posso pedir novas ideias?
+                            </dt>
+                        </summary>
+                        <dd class="resposta-pergunta-setima-sessao">
+                            Você não só pode, como você deve pedir novas ideias. Assim que receber as primeiras ideias,
+                            você avalia, se não gostou nos avise e faremos novas ideias sem nenhum custo adicional.
+                            Faremos novas ideias e revisões até você ficar 100% satisfeito.
+                        </dd>
+                    </details>
+                    <details>
+                        <summary>
+                            <dt class="pergunta-setima-sessao">
+                                Quantas ideias eu receberei?
+                            </dt>
+                        </summary>
+                        <dd class="resposta-pergunta-setima-sessao">
+                            Inicialmente são enviadas 3 ideias e você pode pedir novas ideias quantas vezes quiser até
+                            você ficar satisfeito com uma das ideias enviadas.
+                        </dd>
+                    </details>
+                    <details>
+                        <summary>
+                            <dt class="pergunta-setima-sessao">
+                                Qual a forma de pagamento?
+                            </dt>
+                        </summary>
+                        <dd class="resposta-pergunta-setima-sessao">
+                            O pagamento é feito através do MercadoPago. E você pode pagar com diversas bandeiras de
+                            cartão de crédito, boleto, pis e ainda pode parcelar em até 12x sem juros. E pagamentos por
+                            pix ou boleto tem 10% de desconto.
+                        </dd>
+                    </details>
+                </dl>
+            </div>
+        </section>
+        <!-- oitava sessao comprar serviço -->
+        <section class="oitava-sessao">
+            <div class="conteudo-oitava-sessao">
+                <h2 class="titulo-secundario">
+                    Vamos começar a criar o seu logotipo agora?
+                </h2>
+                <div class="botao-quarta-sessao">
+                    <button class="button ">
+                        <a href="#pacotes">Solicitar meu design</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- nona sessao entrar em contato -->
+        <div class="background-azul">
+            <section class="nona-sessao">
+                <h2  id="contato" class="titulo-secundario titulo-nona-sessao">
+                    Está com alguma dúvida?
+                </h2>
+                <div id="contato-mobile" class="conteudo-nona-sessao recuo-mobile">
+                    <div class="whatsapp-nona-sessao">
+                        <span class="whatsapp-span">
+                            Clique nesse botão para falar via whatsapp, é mais rápido e facil!
+                        </span>
+                        <button class="botao-wpp">
+                            <a href="whatsapp.html">
+                                <img src="img/whatsapp2.png" alt="">
+                            </a>
+                        </button>
+                    </div>
+                    <form class="form">
+                        <span>
+                            Se preferir mande um e-mail que em breve responderemos
+                        </span>
+                        <label>
+                            <input required="" placeholder="" type="text" class="input">
+                            <span>Nome</span>
+                        </label>
+                        <label>
+                            <input required="" placeholder="" type="text" class="input">
+                            <span>Sobrenome</span>
+                        </label>
+                        <label>
+                            <input required="" placeholder="" type="email" class="input">
+                            <span>Email</span>
+                        </label>
+                        <label>
+                            <input required="" type="tel" placeholder="" class="input">
+                            <span>Telefone</span>
+                        </label>
+                        <label>
+                            <input required="" type="text" placeholder="" class="input">
+                            <span>Assunto</span>
+                        </label>
+                        <label>
+                            <textarea required="" rows="1" placeholder="" class="input01"></textarea>
+                            <span>Mensagem</span>
+                        </label>
+                        <button class="button botao-form" href="#">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <!-- rodape -->
+    </main>
+    <footer class="footer-site">
+        <div class="conteudo-rodape">
+            <div class="primeiro-conteudo-rodape">
+                <div class="logo-rodape">
+                    <img src="img/blinkdoo.png" alt="">
+                </div>
+                <div class="termos-de-uso">
+                    <a href="">Leia nosso Termos e condições</a>
+                </div>
+                <div class="direitos-reservados">
+                    <p>© 2019 - 2023 por Blinkdoo.com Todos os direitos reservados.</p>
+                </div>
+                <div class="redes-sociais-rodape">
+                    <a href=""><img src="img/facebook.png" alt=""></a>
+                    <a href=""><img src="img/instagram.png" alt=""></a>
+                    <a href=""><img src="img/whatsapp.png" alt=""></a>
+                </div>
+            </div>
+            <div class="segundo-conteudo-rodape">
+                <div class="navegacao-rodape">
+                    <nav>
+                        <ul class="navegacao-header-rodape">
+                            <li><a href="">home</a></li>
+                            <li><a href="">como funciona</a></li>
+                            <li><a href="">pacotes</a></li>
+                            <li><a href="">trabalhos</a></li>
+                            <li><a href="">contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="marca-registrada">
+                    <p>
+                        Blinkdoo é uma marca registrada
+                    </p>
+                </div>
+                <div class="informacoes-legais-empresa">
+                    <span class="quebra-linha-preco-quinta-sessao">
+                        CNPJ: 00.000.000/0000-00
+                    </span>
+                    <span class="quebra-linha-preco-quinta-sessao">
+                        Nome da Empresa: blinkdoo.com
+                    </span>
+                    <span class="quebra-linha-preco-quinta-sessao">
+                        Endereço Comercial: Rua Dianopolis, 0, São Paulo-SP
+                    </span>
+                    <span>
+                        Entrega: Primeiras ideias em 2 dias úteis
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
