@@ -1,0 +1,36 @@
+.whatsapp-manutencao-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column
+}
+header {
+    background-color: #2093bf;
+}
+.logo-whats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatsapp-manutencao{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vw;
+    padding: 5vw;
+}
+.whatsapp-manutencao-titulo {
+    width: 80%;
+    margin: 0px 10%;
+}
+.whatsapp-manutencao-titulo img {
+    width: 8rem;
+    margin-bottom: 5vw;
+}
+.home-whats {
+    color: white;
+    font-size: 10vw
+}

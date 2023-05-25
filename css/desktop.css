@@ -1,0 +1,814 @@
+@media(min-width: 768px) {
+
+    /* MENU MOBILE OCULTO */
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+
+    .navegacao-mobile {
+        display: none;
+    }
+
+    /* FIM MENU MOBILE OCULTO */
+
+    h1 {
+        font-size: 5vw;
+        font-weight: 100;
+    }
+
+    .logo-header img {
+        width: 13vw;
+        display: block;
+    }
+
+    .titulo-sexta-sessao .titulo-secundario {
+        font-size: 1.8vw;
+        font-weight: 100;
+    }
+
+    .titulo-secundario {
+        font-weight: 700;
+        font-size: 3.5vw;
+    }
+
+    .sexta-sessao h2 {
+        font-size: 3vw;
+    }
+
+    .fonte-sexta-sessao {
+        margin-top: 5%;
+        font-size: 3vw;
+        font-weight: 800;
+    }
+
+    /* ******************************************************************************************** */
+    /* Botoes do site */
+    /* ******************************************************************************************** */
+
+    .button {
+        font-size: 1.3vw;
+        margin-top: 1.5VW;
+    }
+
+    .button-primeira-sessao {
+        font-size: 1.65vw;
+    }
+
+    .button-cards-segunda-sessao {
+        font-size: 1.1vw;
+    }
+
+    .botao-quarta-sessao .button {
+        font-size: 1.65vw;
+    }
+
+    /* ******************************************************************************************** */
+    /* icones social media */
+    /* ******************************************************************************************** */
+
+    .icon-social-media {
+        width: 1.5vw;
+    }
+
+    /* ******************************************************************************************** */
+    /*  Barra de navegação  */
+    /* ******************************************************************************************** */
+    .menu-mobile {
+        display: none;
+        background-color: yellow;
+    }
+
+    .logo-header {
+        display: block;
+    }
+
+    .logo-header img {
+        display: block;
+
+    }
+
+    .cabecalho ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .cabecalho-botao {
+        margin: 0px;
+        border: 2.5px solid whitesmoke;
+    }
+    .cabecalho {
+        padding: 2vw 5%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 90%;
+        z-index: 9999;
+    }
+    .navegacao-header a:hover {
+        transition: all 0.2s;
+        font-size: 1.5vw;
+    }
+    .cabecalho img:hover {
+        transition: all 0.2s;
+        width: 14vw;
+        
+    }
+    .cabecalho a, img {
+        transition: all 0.2s;
+    }
+    .logo-header,
+    .navegacao-header,
+    .redes-sociais-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 0px 3vw;
+        align-items: center;
+    }
+
+
+    /* ******************************************************************************************** */
+    /* Primeira sessao */
+    /* ******************************************************************************************** */
+
+    .primeira-sessao {
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+        margin-top: 5vw;
+    }
+
+    .segundo-conteudo-primeira-sessao {
+        font-size: 1.8vw;
+    }
+
+    .conteudo-esquerdo-primeira-sessao,
+    .conteudo-direito-primeira-sessao {
+        width: 50%;
+        
+    }
+
+
+    .conteudo-esquerdo-primeira-sessao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vw;
+
+    }
+
+    .conteudo-direito-primeira-sessao img {
+        width: 100%;
+    }
+
+    /* ******************************************************************************************** */
+    /* Segunda sessao */
+    /* ******************************************************************************************** */
+
+    .segunda-sessao {
+        clip-path: ellipse(90% 100% at 50% 100%);
+        padding: 5%;
+    }
+
+
+    .segunda-sessao h2 {
+        text-align: center;
+        padding-bottom: 3vw;
+    }
+
+
+    .primeiro-conteudo-segunda-sessao {
+        padding: 50px;
+    }
+
+    .segunda-sessao img {
+        width: 5vw;
+    }
+
+    .cards-segunda-sessao {
+        display: flex;
+        gap: 5vw;
+    }
+
+    .cards-segunda-sessao .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3vw;
+        border-radius: 20% 0 20% 0;
+        font-size: 1.3vw;
+        width: 100%;
+    }
+
+    .cards-segunda-sessao .card img {
+        width: 3.5vw;
+        margin: 1vw 1vw 1vw 0vw;
+    }
+
+    /* ******************************************************************************************** */
+    /* Quarta sessao */
+    /* ******************************************************************************************** */
+
+    .quarta-sessao {
+        padding: 5%;
+    }
+
+    .titulo-quarta-sessao .titulo-secundario {
+        font-size: 3vw;
+    }
+
+    .conteudo-quarta-sessao {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .conteudo-esquerdo-quarta-sessao {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vw;
+    }
+
+    .conteudo-direito-quarta-sessao {
+        display: flex;
+        gap: 2vw;
+        width: 60%;
+    }
+
+    .card-quarta-sessao,
+    .card-adicional-quinta-sessao {
+        border-radius: 10% 10% 10% 10%;
+        height: 10vw;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 2vw;
+    }
+
+    .separacao-card-quarta-sessao {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        width: 33%;
+        justify-content: space-between;
+    }
+
+    .icon-quarta-sessao {
+        width: 3vw;
+    }
+
+    .quarta-sessao h2 {
+        font-size: 3.5vw;
+    }
+
+    /* ******************************************************************************************** */
+    /* Quinta sessao */
+    /* ******************************************************************************************** */
+
+
+    .destaque {
+        font-size: 2vw;
+    }
+
+    .quinta-sessao {
+        padding: 5%;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .cards-quinta-sessao-nossos-pacotes {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .card-quinta-sessao {
+        width: 25%;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 2vw 0px;
+        margin-top: 5vw;
+        padding: 0.6vw;
+        text-align: center;
+    }
+
+    .botao-card-quinta-sessao {
+        width: 70%;
+        margin: 2vw;
+    }
+
+    .precificacao-card-quinta-sessao {
+        border-radius: 2vw 0px;
+        margin-bottom: 1vw;
+        width: 100%;
+    }
+
+    .titulo-card-quinta-sessao {
+        font-weight: 800;
+        font-size: 1.65vw;
+        padding-top: 0.5vw;
+        padding-bottom: 1vw;
+    }
+
+    .centavos-preco-quinta-sessao {
+        font-size: 1.4vw;
+    }
+
+
+
+
+    .estilo-card-preco-quinta-sessao {
+        font-weight: 800;
+    }
+
+    .fonte-pix {
+        font-size: 2vw;
+    }
+
+    .fonte-pix,
+    .cor-pix {
+        font-weight: 900;
+    }
+
+    .fonte-parcelamento {
+        font-size: 1.3vw;
+        font-weight: 700;
+        margin-top: 1vw;
+        padding-bottom: 0.5vw;
+    }
+
+    .cor-pix {
+        font-size: 1.2vw;
+    }
+
+    .fonte-preco {
+        font-size: 5vw;
+        font-weight: 800;
+    }
+
+    .desconto-pix-card-quinta-sessao {
+        margin-bottom: 1.5vw;
+    }
+
+    .adicionais-card-quinta-sessao {
+        padding: 0px 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        font-size: 1.2vw;
+        font-weight: 900;
+    }
+
+    .espaco-card-quinta-sessao {
+        margin-bottom: 0.5vw;
+        text-align: center;
+    }
+
+    .texto-bold-quinta-sessao {
+        font-weight: 900;
+        font-size: 1.2vw;
+    }
+
+    .titulo-descricao-adcionais-quinta-sessao {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .cards-quinta-sessao-conteudo-adicional {
+        display: flex;
+        gap: 1vw;
+        justify-content: center;
+    }
+
+    .separacao-card-adicional-quinta-sessao {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+    }
+
+    .card-adicional-quinta-sessao {
+        border-radius: 1.5vw;
+        height: 5vw;
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
+
+    .terceiro-conteudo-quinta-sessao {
+        font-size: 1.5vw;
+        font-weight: 100;
+        width: 70%;
+        margin: 5% 15% 0px;
+    }
+
+    .terceiro-conteudo-quinta-sessao div {
+        text-align: start;
+
+    }
+
+    /* ******************************************************************************************** */
+    /* SEXTA SESSAO */
+    /* ******************************************************************************************** */
+
+    .sexta-sessao {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .carrossel-cards-sexta-sessao {
+        margin: 5% -5.5% 5% -6%;
+        overflow-x: auto;
+        overflow: hidden;
+    }
+
+    .galeria-carrossel {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 0.2vw;
+        overflow: hidden;
+    }
+
+    .img-carrossel {
+        width: 20vw;
+        flex-shrink: 0;
+
+    }
+
+    .item-atual {
+        opacity: 1;
+    }
+
+    .seta-esquerda {
+        float: left;
+        left: 0;
+        position: absolute;
+        text-align: start;
+        background: transparent;
+    }
+
+    .seta-direita img,
+    .seta-esquerda img {
+        width: 5vw;
+    }
+
+    .seta-direita,
+    .seta-esquerda {
+        margin-top: -25%;
+        position: absolute;
+        border: none;
+        font-size: 5vw;
+        opacity: 1.0;
+        height: 25.3vw;
+        width: 10vw;
+        opacity: 0.5;
+        transition: all 300ms ease-in-out;
+    }
+
+    .seta-direita:hover,
+    .seta-esquerda:hover {
+        opacity: 1;
+    }
+
+    .seta-direita {
+        right: 0;
+        text-align: end;
+        background: transparent
+    }
+
+    .cards-clientes-sexta-sessao {
+        display: flex;
+        justify-content: center;
+        gap: 1vw;
+        padding: 5% 0px;
+    }
+
+    .card-clientes-sexta-sessao {
+        width: 15vw;
+        border-radius: 10px;
+        transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        padding: 1.5vw;
+    }
+
+    .estrela-sexta-sessao {
+        width: 1.5vw;
+    }
+
+    .texto-cliente-sexta-sessao {
+        text-align: start;
+    }
+
+    .nome-cliente-sexta-sessao {
+        font-size: 1.7vw;
+        font-weight: 800;
+        margin-top: -10%;
+    }
+
+    .servico-sexta-sessao {
+        text-align: start;
+        font-size: 1vw;
+    }
+
+    .citacao-cliente-sexta-sessao {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .trabalho-sexta-sessao,
+    .texto-cliente-sexta-sessao,
+    .servico-sexta-sessao {
+        padding: 0.5vw 0px;
+    }
+
+    /* ******************************************************************************************** */
+    /* SETIMA SESSAO */
+    /* ******************************************************************************************** */
+
+    .setima-sessao {
+        padding: 5%;
+        text-align: center;
+    }
+
+    details {
+        width: 50%;
+        margin: 2vw 25% 0.5vw;
+        padding: 1vw;
+        transition: all 0.5s ease-in-out;
+        max-height: 20px;
+    }
+
+    summary {
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    details[open] dd {
+        margin-top: 1vw;
+        padding: 1vw 0px;
+    }
+
+    details[open] {
+        padding: 1vw;
+        max-height: 500px;
+    }
+
+    dd {
+        text-align: start;
+        width: 100%;
+    }
+
+
+    /* ******************************************************************************************** */
+    /* Oitava sessao */
+    /* ******************************************************************************************** */
+
+    .oitava-sessao {
+        height: 300px;
+        text-align: center;
+        padding: 5% 5% 0px 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+    }
+
+    /* ******************************************************************************************** */
+    /* NONA SESSAO */
+    /* ******************************************************************************************** */
+
+    .conteudo-nona-sessao {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        width: 90%;
+        padding: 0px 20px 20px 20px;
+    }
+
+    /* ******************************************************************************************** */
+    /* FORMULARIO DE CONTATO */
+    /* ******************************************************************************************** */
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 100%;
+        padding: 1vw;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .message {
+        font-size: 14px;
+    }
+
+    .flex {
+        display: flex;
+        width: 100%;
+        gap: 6px;
+    }
+
+    .form label {
+        position: relative;
+    }
+
+    .form label .input {
+        padding: 5%;
+        width: 90%;
+        outline: 0;
+        border-color: transparent;
+        border-radius: 5px;
+    }
+
+    .form label .nome {
+        height: 1.5vw;
+    }
+
+    .form label .input+span {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        font-size: 0.9em;
+        cursor: text;
+        transition: 0.3s ease;
+    }
+
+    .form label .input:placeholder-shown+span {
+        top: 1.2vw;
+        font-size: 0.9em;
+    }
+
+    .form label .input:focus+span,
+    .form label .input:valid+span {
+        font-size: 0.7em;
+        font-weight: 600;
+        top: 1%;
+    }
+
+    .input01 {
+        padding: 5%;
+        width: 90%;
+        outline: 0;
+        border: transparent;
+        border-radius: 5px;
+    }
+
+    .form label .input01+span {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        font-size: 0.9em;
+        cursor: text;
+        transition: 0.3s ease;
+    }
+
+    .form label .input01:placeholder-shown+span {
+        top: 4px;
+        font-size: 0.9em;
+    }
+
+    .form label .input01:focus+span,
+    .form label .input01:valid+span {
+        top: 1%;
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+
+    .form label .input01:valid+span {
+        display: none;
+
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .botao-form {
+        margin: 0px 10%;
+        width: 80%;
+    }
+
+    .whatsapp-nona-sessao {
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    .whatsapp-nona-sessao span {
+        width: 27%;
+        font-size: 2vw;
+    }
+
+
+    .whatsapp-nona-sessao img {
+        width: 5vw;
+    }
+
+    .botao-wpp {
+        cursor: pointer;
+        border: transparent;
+        background-color: transparent;
+    }
+
+    .nona-sessao .titulo-secundario {
+        text-align: center;
+        padding: 5% 5% 2% 5%;
+    }
+
+    .nona-sessao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 5% 0px;
+        clip-path: ellipse(90% 100% at 50% 100%);
+    }
+
+    .fale-conosco {
+        text-align: center;
+        font-size: 2.5vw;
+        padding-top: 2%;
+    }
+
+    /* ******************************************************************************************** */
+    /* footer do site */
+    /* ******************************************************************************************** */
+
+    .primeiro-conteudo-rodape {
+        padding: 5% 5% 5% 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-rodape {
+        width: 22.5%;
+        text-align: center;
+    }
+
+    .termos-de-uso {
+        width: 22.5%;
+        font-weight: 800;
+    }
+
+    .direitos-reservados {
+        width: 22.5%;
+    }
+
+    .redes-sociais-rodape {
+        text-align: center;
+        width: 22.5%;
+    }
+
+    .redes-sociais-rodape img {
+        width: 2vw;
+    }
+
+    .segundo-conteudo-rodape {
+        padding: 0% 5% 5% 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vw;
+    }
+
+    .navegacao-header-rodape {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .informacoes-legais-empresa {
+        text-align: center;
+    }
+
+    .logo-rodape img {
+        width: 12vw;
+    }
+
+}
+
+

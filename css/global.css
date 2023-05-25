@@ -1,0 +1,422 @@
+/* ******************************************************************************************** */
+/* Padroes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+*, footer {
+    font-family: 'Cabin', sans-serif;
+    caret-color: transparent;
+}
+
+a {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.titulo-secundario {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-size: 1.3vw;
+    max-width: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+
+h1 {
+    color: #19376D;
+}
+
+main {
+    color: rgba(0, 0, 0, 0.781);
+    letter-spacing: 0.02vw;
+}
+
+.quebra-linha-preco-quinta-sessao {
+    display: block;
+}
+
+.margin-quebra {
+    margin: 2vw;
+}
+
+/* carrossel */
+.carrossel-cards-sexta-sessao {
+    overflow-x: auto;
+    overflow: hidden;
+}
+
+.galeria-carrossel {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+}
+
+.img-carrossel {
+    flex-shrink: 0;
+}
+
+
+
+
+
+/* ******************************************************************************************** */
+/* MENU - Padroes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.cabecalho,
+.navegacao-mobile,
+.menu {
+    background-color: #2093bf;
+
+}
+
+.cabecalho a,
+.menu a {
+    color: white;
+}
+
+/* ******************************************************************************************** */
+/* BOTOES - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.button {
+    padding: 0.25em 1em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: #2093bf;
+    color: white;
+    border-radius: 5rem;
+}
+
+.button a {
+    color: white;
+}
+
+.button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.botao-quarta-sessao .button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 1);
+}
+
+.botao-quarta-sessao .button:hover a {
+    color: white;
+}
+
+.button:active {
+    transform: translate(0em, 0.2em);
+}
+
+.botao-quarta-sessao .button {
+    background-color: white;
+}
+
+.botao-quarta-sessao .button a {
+    color: black;
+}
+
+/* ******************************************************************************************** */
+/* PRIMEIRA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.primeira-sessao {
+    background-color: white;
+}
+
+/* ******************************************************************************************** */
+/* SEGUNDA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.segunda-sessao {
+    background-color: #ebebeb;
+}
+
+.cards-segunda-sessao .card {
+    background: #ffffff;
+}
+
+/* ******************************************************************************************** */
+/* QUARTA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.quarta-sessao {
+    background-color: #2093bf;
+}
+
+.card-quarta-sessao,
+.card-adicional-quinta-sessao {
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.quarta-sessao h2 {
+    color: #ebebeb;
+}
+
+/* ******************************************************************************************** */
+/* QUINTA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.quinta-sessao {
+    background-color: #ebebeb;
+}
+
+.card-quinta-sessao {
+    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    background-color: #ffffff;
+    background: linear-gradient(0deg, #2093bf -800%, #ffffff 100%);
+}
+
+.botao-card-quinta-sessao {
+    text-shadow: 0px 4px 18px #2c3442;
+    cursor: pointer;
+}
+
+.precificacao-card-quinta-sessao {
+    background-color: #2092bf62;
+}
+
+.fonte-pix,
+.cor-pix {
+    color: #008b00;
+}
+
+.adicionais-card-quinta-sessao {
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.card-adicional-quinta-sessao {
+    background-color: rgb(255, 255, 255);
+}
+
+/* ******************************************************************************************** */
+/* SEXTA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.sexta-sessao {
+    background-color: #2092bf48;
+}
+
+.seta-direita,
+.seta-esquerda {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.card-clientes-sexta-sessao {
+    background: rgb(255, 255, 255);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+details {
+    border-bottom: 2px solid #2092bf5e;
+}
+
+details:hover {
+    background-color: #2092bf5e;
+}
+
+details[open] {
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+/* ******************************************************************************************** */
+/* OITAVA SESSAO - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.oitava-sessao {
+    background-color: #2093bf;
+}
+
+.conteudo-oitava-sessao .titulo-secundario {
+    color: white;
+}
+
+/* ******************************************************************************************** */
+/* FORMULARIO / NONA SESSAO padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+    padding: 1vw;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff;
+}
+
+.message {
+    font-size: 14px;
+    color: rgba(88, 87, 87, 0.822);
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.form label {
+    position: relative;
+}
+
+.form label .input {
+    padding: 5%;
+    width: 90%;
+    outline: 0;
+    border-color: transparent;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.397);
+}
+
+.form label .nome {
+    height: 1.5vw;
+}
+
+.form label .input+span {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+    color: grey;
+}
+
+.form label .input:placeholder-shown+span {
+    top: 1.2vw;
+    font-size: 0.9em;
+}
+
+.form label .input:focus+span,
+.form label .input:valid+span {
+    font-size: 0.7em;
+    font-weight: 600;
+    top: 1%;
+
+}
+
+.input01 {
+    padding: 5%;
+    width: 90%;
+    outline: 0;
+    border: transparent;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(105, 105, 105, 0.397);
+}
+
+.form label .input01+span {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+    color: grey;
+}
+
+.form label .input01:placeholder-shown+span {
+    top: 4px;
+    font-size: 0.9em;
+}
+
+.form label .input01:focus+span,
+.form label .input01:valid+span {
+    top: 1%;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.form label .input01:valid+span {
+    display: none;
+    color: #008b00;
+
+}
+
+textarea {
+    resize: none;
+}
+
+.botao-form {
+    margin: 0px 10%;
+    width: 80%;
+}
+
+
+
+.whatsapp-nona-sessao {
+    background-color: #fff;
+}
+
+
+.nona-sessao .titulo-secundario {
+    color: black;
+}
+
+.nona-sessao {
+    background-color: white;
+}
+
+.fale-conosco {
+    color: black;
+}
+
+.background-azul {
+    background-color: #2093bf;
+}
+
+/* ******************************************************************************************** */
+/* FOOTER - padroes dos botoes que nao necessariamente necessitam da responsividade */
+/* ******************************************************************************************** */
+
+.footer-site {
+    background-color: #2c3442;
+    color: white;
+}
+
+.footer-site a {
+    color: white;
+}
+
+/* ******************************************************************************************** */
+/* terceira sessao no futuro colocar um video do site */
+/* ******************************************************************************************** */
+
+.terceira-sessao {
+    display: none;
+}
+
+/* PERGUNTAS FREQUENTES */
+
+
+details[open] summary::before {
+    content: "↑""\00a0""\00a0""\00a0";
+}
+
+details summary::before{
+    content: "↓""\00a0""\00a0""\00a0";
+    transition: transform 0.2s ease-in-out;
+}
+
+/* termos de uso */
+.termos-de-uso {
+    text-decoration: underline;
+}
+
+/* ******************************************************************************************** */
+/****************************************** FIM DOS PADROES ************************************************/
+/* ******************************************************************************************** */
